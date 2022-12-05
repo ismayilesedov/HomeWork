@@ -4,9 +4,12 @@
     {
         static void Main(string[] args)
         {
-            int a = 26;
-            int b = 39;
-            Console.WriteLine(a + b);
+            Console.WriteLine("a ededini daxil edin");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("b ededini daxil edin");
+            int b =Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(a+b);
+           
         }
     }
 }
