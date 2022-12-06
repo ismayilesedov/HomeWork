@@ -8,7 +8,8 @@
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("b ededini daxil edin");
             int b =Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(a+b);
+            Console.WriteLine("Alinan cavab :" + (a + b));
+           
            
         }
     }
